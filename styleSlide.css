@@ -1,0 +1,29 @@
+﻿ *{
+	margin : 0px;
+	padding : 0px;
+}
+div#show {
+	display : none;
+	margin-top : 1em;
+}
+div#show button {
+	padding : 1em;
+	margin-right : 1em;
+	cursor : pointer;
+}
+body {
+	width : 400px;
+	margin : 100px auto 0px;
+}
+div.view {
+	height : 200px;
+	width : inherit;
+	overflow : scroll;
+}
+div.view ul {
+	list-style : none;
+	width : 10000px;
+}
+div.view li {
+	float : left;
+}
